@@ -16,6 +16,16 @@
 
 NOTE: Vitest does not play nicely with gitBash... temp fix... running cmd in a detached terminal watching the tests...
 
+## Deploying to github pages
+
+https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
+git add dist -f
+git subtree push --prefix dist origin gh-pages
+
+OR
+
+https://vitejs.dev/guide/static-deploy.html#github-pages
+
 ---
 
 Update `vite.config.ts` to the following:
@@ -35,7 +45,7 @@ export default defineConfig({
 })
 ```
 
---------------------
+---
 
 # Svelte + TS + Vite
 
