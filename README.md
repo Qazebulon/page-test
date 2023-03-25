@@ -18,13 +18,14 @@ NOTE: Vitest does not play nicely with gitBash... temp fix... running cmd in a d
 
 ## Deploying to github pages
 
+https://vitejs.dev/guide/static-deploy.html#github-pages
+
+OR
+
 https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
 git add dist -f
 git subtree push --prefix dist origin gh-pages
 
-OR
-
-https://vitejs.dev/guide/static-deploy.html#github-pages
 
 ---
 
